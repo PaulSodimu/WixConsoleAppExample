@@ -6,6 +6,11 @@
     <Property Id="WIXUI_INSTALLDIR" Value="INSTALLFOLDER"></Property>
     <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
     <MediaTemplate EmbedCab="yes" />
+    <WixVariable Id="WixUIDialogBmp" Value="img\dialog.bmp" />
+    <WixVariable Id="WixUIBannerBmp" Value="img\banner.bmp" />
+    <Icon Id="icon.ico" SourceFile="img\icon.ico"></Icon>
+    <Property Id="ARPPRODUCTICON" Value="icon.ico"></Property>
+
 
     <Feature Id="ProductFeature" Title="MyCoolConsoleApp.Installer" Level="1">
       <ComponentGroupRef Id="ProductComponents" />
