@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MyCoolConsoleApp
 {
@@ -10,6 +6,8 @@ namespace MyCoolConsoleApp
   {
     static void Main(string[] args)
     {
+      Console.WriteLine("I'm a console app installed on this machine :)");
+      Console.ReadKey();
     }
   }
 }

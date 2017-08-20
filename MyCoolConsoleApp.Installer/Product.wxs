@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Id="ba4921b4-66ba-497d-b23b-fafabf0dfe95" Name="MyCoolConsoleApp.Installer" Language="1033" Version="1.0.0.0" Manufacturer="Paul Sodimu Limited" UpgradeCode="1bb5ff5a-4724-4643-912a-4885964bc461">
+    <Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+    <UIRef Id="WixUI_Mondo"></UIRef>
+    <Property Id="WIXUI_INSTALLDIR" Value="INSTALLFOLDER"></Property>
+    <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+    <MediaTemplate EmbedCab="yes" />
+
+    <Feature Id="ProductFeature" Title="MyCoolConsoleApp.Installer" Level="1">
+      <ComponentGroupRef Id="ProductComponents" />
+    </Feature>
+  </Product>
+
+  <Fragment>
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="INSTALLFOLDER" Name="MyCoolConsoleApp.Installer" />
+      </Directory>
+    </Directory>
+  </Fragment>
+</Wix>

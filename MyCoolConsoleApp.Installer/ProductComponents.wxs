@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="INSTALLFOLDER" />
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="ProductComponents">
+            <Component Id="cmp7D7F7AD8A8132F8D3AEF6158160D6B40" Directory="INSTALLFOLDER" Guid="{9261E5F4-95B3-4127-92C8-E8C7015E9026}" KeyPath="yes">
+                <CreateFolder />
+            </Component>
+        </ComponentGroup>
+    </Fragment>
+</Wix>

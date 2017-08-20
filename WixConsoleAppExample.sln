@@ -5,16 +5,30 @@ VisualStudioVersion = 15.0.26228.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCoolConsoleApp", "MyCoolConsoleApp\MyCoolConsoleApp.csproj", "{07B08139-7072-47AE-B5A6-7F6E87F1B823}"
 EndProject
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "MyCoolConsoleApp.Installer", "MyCoolConsoleApp.Installer\MyCoolConsoleApp.Installer.wixproj", "{5E003830-8857-474A-B22F-AD5E321162DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{07B08139-7072-47AE-B5A6-7F6E87F1B823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{07B08139-7072-47AE-B5A6-7F6E87F1B823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07B08139-7072-47AE-B5A6-7F6E87F1B823}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{07B08139-7072-47AE-B5A6-7F6E87F1B823}.Debug|x86.Build.0 = Debug|Any CPU
 		{07B08139-7072-47AE-B5A6-7F6E87F1B823}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07B08139-7072-47AE-B5A6-7F6E87F1B823}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07B08139-7072-47AE-B5A6-7F6E87F1B823}.Release|x86.ActiveCfg = Release|Any CPU
+		{07B08139-7072-47AE-B5A6-7F6E87F1B823}.Release|x86.Build.0 = Release|Any CPU
+		{5E003830-8857-474A-B22F-AD5E321162DC}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{5E003830-8857-474A-B22F-AD5E321162DC}.Debug|x86.ActiveCfg = Debug|x86
+		{5E003830-8857-474A-B22F-AD5E321162DC}.Debug|x86.Build.0 = Debug|x86
+		{5E003830-8857-474A-B22F-AD5E321162DC}.Release|Any CPU.ActiveCfg = Release|x86
+		{5E003830-8857-474A-B22F-AD5E321162DC}.Release|x86.ActiveCfg = Release|x86
+		{5E003830-8857-474A-B22F-AD5E321162DC}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
